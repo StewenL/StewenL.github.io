@@ -1,0 +1,55 @@
+---
+layout: default
+# Index page
+---
+
+<!-- Renaming the title of page to my name, as it should be originally -->
+<script>
+  document.getElementById("topbar-title").innerHTML = "Daniel Smulko";
+</script>
+
+<div class="row">
+  <div class="col-md">
+    <h1>Who am I?</h1>
+    <a href="../assets/post_data/home/" class="popup img-link right" style="width:30%" >
+      <img src="../assets/post_data/home/" loading="lazy" style="border-radius: .625rem;" alt = "A self-portrait">
+    </a>
+    <p>Hey, you can call me Leo!</p>
+    <p>I am a game programming student studying at <a href = https://www.buas.nl>Breda University of Applied Sciences</a>. I am passionate about tool development, gameplay programming and dabble in graphics. </p>
+  </div>
+</div>
+<!-- Welcome text and image -->
+
+<h3>Articles of interest:</h3>
+
+{% include lang.html %}
+
+{% assign posts_for_homepage = site.posts | where: 'show_on_home_page', 'true' %}
+
+<nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
+  {% for post in posts_for_homepage %}
+    {% include home-page-post-card.html %}
+  {% endfor %}
+</nav>
+
+<h3>Games I've shipped:</h3>
+
+{% assign shipped_games = site.posts | where: 'shipped_game', 'true' %}
+
+<nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
+  {% for post in shipped_games %}
+    {% include home-page-post-card.html %}
+  {% endfor %}
+</nav>
+<!-- #shipped-games -->
+
+{% assign wip_projects = site.posts | where: 'wip', 'true' %}
+{% if wip_projects != empty %}
+  <h3>Current work in progress:</h3>
+
+  <nav class="row row-cols-1 row-cols-md-1 row-cols-xl-1 g-4 mb-4">
+    {% for post in wip_projects %}
+      {% include home-page-post-card.html %}
+    {% endfor %}
+  </nav>
+  <!-- #wip-projects -->
