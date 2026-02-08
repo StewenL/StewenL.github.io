@@ -5,7 +5,7 @@ icon: fa-solid fa-users
 order: 2
 ---
 
-<h3>So far, there are only a few group projects to show</h3>
+<h3>Here are the group projects I've worked on</h3>
 
 {% include lang.html %}
 

@@ -5,7 +5,7 @@ icon: fa-solid fa-user
 order: 1
 ---
 
-<h3>Here is a list of my personal projects that I have worked on</h3>
+<h3>A list of personal projects that I've worked on</h3>
 
 {% include lang.html %}
 
