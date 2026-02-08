@@ -1,6 +1,6 @@
-## https://smailikhappy.github.io/
+## https://stewenl.github.io/
 
-This is personal website of Daniel 'SmailikHappy' Smulko.
+This is personal website of Leonardo Stewen.
 This repository generates a website on GitHub pages using jekyll workflow.
 
 ## Credits
