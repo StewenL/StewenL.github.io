@@ -11,8 +11,8 @@ layout: default
 <div class="row">
   <div class="col-md">
     <h1>Who am I?</h1>
-    <a href="/" class="popup img-link right" style="width:30%" >
-      <img src="assets/post_data/home/clipper.webp" loading="lazy" style="border-radius: .625rem;" alt = "A self-portrait">
+    <a href="assets/post_data/home/snow-portrait.png" class="popup img-link right" style="width:30%" >
+      <img src="assets/post_data/home/snow-portrait.png" loading="lazy" style="border-radius: .625rem;" alt = "A self-portrait">
     </a>
     <p>Hey, you can call me Leo!</p>
     <p>I am a game programming student studying at <a href = https://www.buas.nl>Breda University of Applied Sciences </a>. I am passionate about tool development, gameplay programming and dabble in graphics.</p>
@@ -42,15 +42,3 @@ layout: default
   {% endfor %}
 </nav>
 <!-- #shipped-games -->
-
-{% assign wip_projects = site.posts | where: 'wip', 'true' %}
-{% if wip_projects != empty %}
-  <h3>Current work in progress:</h3>
-
-  <nav class="row row-cols-1 row-cols-md-1 row-cols-xl-1 g-4 mb-4">
-    {% for post in wip_projects %}
-      {% include home-page-post-card.html %}
-    {% endfor %}
-  </nav>
-  <!-- #wip-projects -->
-{% endif %}
