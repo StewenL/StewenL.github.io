@@ -22,6 +22,7 @@ During the 8 weeks of my block, I developed a cpu based ray tracer. This tested 
 - Spheres.
 - Depth-of-field.
 - MagicaVoxel model loading.
+- HDR skybox.
 
 ## Showcase
 
