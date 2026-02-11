@@ -24,4 +24,4 @@ Over the course of the 8 weeks, my group was tasked with creating a custom RTS e
 
 ## Showcase
 
-<video controls src="../assets/post_data/rts-engine/showcase.mp4" title="Showcase"></video>
+[Video](../assets/post_data/rts-engine/showcase.h264)
