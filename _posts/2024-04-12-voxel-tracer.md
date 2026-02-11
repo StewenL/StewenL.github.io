@@ -1,8 +1,8 @@
 ---
 title: "Voxel-based Ray Tracer"
-categories: [Personal projects]
+categories: [Projects]
 image:
-  path: assets/post_data/voxel-tracer/cover.png
+  path: assets/post_data/voxel-tracer/green.png
 description: My first time exploring ray tracing during my first year at BUaS.
 skills: [C++, Rendering, Acceleration Structures]
 show_on_home_page: true
@@ -27,6 +27,6 @@ During the 8 weeks of my block, I developed a cpu based ray tracer. This tested 
 
 ![image](../assets/post_data/voxel-tracer/castle-lit.png)
 
-![image](../assets/post_data/voxel-tracer/green.png)
+![image](../assets/post_data/voxel-tracer/cover.png)
 
 ![image](../assets/post_data/voxel-tracer/castle.png)

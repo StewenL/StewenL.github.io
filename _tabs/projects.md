@@ -1,15 +1,15 @@
 ---
-title: "Group projects"
+title: "Projects"
 layout: default
-icon: fa-solid fa-users
-order: 2
+icon: fa-solid fa-user
+order: 1
 ---
 
-<h3>Here are the group projects I've worked on</h3>
+<h3>A list of the projects that I've worked on</h3>
 
 {% include lang.html %}
 
-{% assign all_posts = site.posts | where: 'categories', 'Group projects' %}
+{% assign all_posts = site.posts | where: 'categories', 'Personal projects' %}
 
 {% assign pinned = all_posts | where: 'pin', 'true' %}
 {% assign default = all_posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}

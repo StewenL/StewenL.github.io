@@ -31,14 +31,3 @@ layout: default
     {% include home-page-post-card.html %}
   {% endfor %}
 </nav>
-
-<h3>Games I've shipped:</h3>
-
-{% assign shipped_games = site.posts | where: 'shipped_game', 'true' %}
-
-<nav class="row row-cols-1 row-cols-md-2 row-cols-xl-2 g-4 mb-4">
-  {% for post in shipped_games %}
-    {% include home-page-post-card.html %}
-  {% endfor %}
-</nav>
-<!-- #shipped-games -->
