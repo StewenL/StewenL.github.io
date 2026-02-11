@@ -24,4 +24,4 @@ Over the course of the 8 weeks, my group was tasked with creating a custom RTS e
 
 ## Showcase
 
-[Video](../assets/post_data/rts-engine/showcase.h264)
+![image](../assets/post_data/rts-engine/combat-screenshot.png)
