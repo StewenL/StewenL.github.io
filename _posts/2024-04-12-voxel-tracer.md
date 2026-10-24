@@ -4,7 +4,7 @@ categories: [Projects]
 image:
   path: assets/post_data/voxel-tracer/green.png
 description: My first time exploring ray tracing during my first year at BUaS.
-skills: [C++, Rendering, Acceleration Structures]
+skills: [Solo Project, C++, Rendering]
 show_on_home_page: true
 ---
 
