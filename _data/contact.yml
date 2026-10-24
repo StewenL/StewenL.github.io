@@ -1,13 +1,5 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-  url: 'https://github.com/StewenL'
-
-- type: discord
-  icon: "fab fa-discord"
-  url:  'https://discordapp.com/users/neol.'
-
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
@@ -18,9 +10,9 @@
 # Uncomment and complete the url below to enable more contact options
 
 #
-- type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/leonardo-stewen-8465b4317/'                  # Fill with your Linkedin homepage
+# - type: linkedin
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  'https://www.linkedin.com/in/leonardo-stewen-8465b4317/'                  # Fill with your Linkedin homepage
 #
 # - type: stack-overflow
 #   icon: 'fab fa-stack-overflow'
