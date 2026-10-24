@@ -4,7 +4,7 @@ categories: [Projects]
 image:
   path: assets/post_data/rts-engine/cover.png
 description: A custom engine developed in a team of 7 during my second year at BUaS.
-skills: [C++, Remote Development, Version Control]
+skills: [Group, C++, Remote Development, Version Control]
 show_on_home_page: true
 ---
 
