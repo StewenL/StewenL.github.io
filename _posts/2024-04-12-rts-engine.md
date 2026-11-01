@@ -1,10 +1,10 @@
 ---
 title: "Custom RTS Engine"
-categories: [Projects]
+categories: [Group Projects]
 image:
   path: assets/post_data/rts-engine/cover.png
 description: A custom engine developed in a team of 7 during my second year at BUaS.
-skills: [Group Project, C++, Remote Development]
+skills: [Group, C++, Remote Development]
 show_on_home_page: true
 ---
 
