@@ -3,7 +3,7 @@ title: "Voxel-based Ray Tracer"
 categories: [Solo Projects]
 image:
   path: assets/post_data/voxel-tracer/green.png
-description: My first time exploring ray tracing during my first year at BUaS.
+description: My first foray into ray-tracing during year one at BUaS.
 skills: [Solo, C++, Rendering]
 show_on_home_page: true
 ---
