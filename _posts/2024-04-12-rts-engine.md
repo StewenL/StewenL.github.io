@@ -32,4 +32,4 @@ Over the course of the 8 weeks, my group was tasked with creating a custom RTS e
 
 ## Showcase
 
-[Click here to watch the showcase on Youtube.]([../assets/post_data/rts-engine/combat-screenshot.png](https://www.youtube.com/watch?v=N8P9ODv35rA))
+[Click here to watch the showcase on Youtube.](https://www.youtube.com/watch?v=N8P9ODv35rA)
